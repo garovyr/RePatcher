@@ -1,127 +1,139 @@
-Write-Output "RMX3710"
+# RMX3710 (Realme C55)
 
-.\adb.exe uninstall --user 0 com.android.bips
-.\adb.exe uninstall --user 0 com.android.bluetoothmidiservice
-.\adb.exe uninstall --user 0 com.android.bookmarkprovider
-.\adb.exe uninstall --user 0 com.android.dreams.basic
-.\adb.exe uninstall --user 0 com.android.egg
-.\adb.exe uninstall --user 0 com.android.email.partnerprovider
-.\adb.exe uninstall --user 0 com.android.htmlviewer
-.\adb.exe uninstall --user 0 com.android.providers.partnerbookmarks
-.\adb.exe uninstall --user 0 com.android.sharedstoragebackup
-.\adb.exe uninstall --user 0 com.android.simappdialog
-.\adb.exe uninstall --user 0 com.android.stk
-.\adb.exe uninstall --user 0 com.android.storagemanager
-.\adb.exe uninstall --user 0 com.android.systemui.plugin.globalactions.wallet
-.\adb.exe uninstall --user 0 com.android.traceur
-.\adb.exe uninstall --user 0 com.android.wallpaper.livepicker
-# .\adb.exe uninstall --user 0 com.Btek.engineermode
-# .\adb.exe uninstall --user 0 com.Btek.omacp
-# .\adb.exe uninstall --user 0 com.Btek.voicecommand
-.\adb.exe uninstall --user 0 com.coloros.activation
-.\adb.exe uninstall --user 0 com.coloros.childrenspace
-.\adb.exe uninstall --user 0 com.coloros.compass2
-.\adb.exe uninstall --user 0 com.coloros.filemanager
-.\adb.exe uninstall --user 0 com.coloros.floatassistant
-.\adb.exe uninstall --user 0 com.coloros.gallery3d
-.\adb.exe uninstall --user 0 com.coloros.healthcheck
-.\adb.exe uninstall --user 0 com.coloros.karaoke
-.\adb.exe uninstall --user 0 com.coloros.ocs.opencapabilityservice
-.\adb.exe uninstall --user 0 com.coloros.operationManual
-.\adb.exe uninstall --user 0 com.coloros.oshare
-.\adb.exe uninstall --user 0 com.coloros.phonemanager
-.\adb.exe uninstall --user 0 com.coloros.scenemode
-.\adb.exe uninstall --user 0 com.coloros.securepay
-.\adb.exe uninstall --user 0 com.coloros.smartsidebar
-.\adb.exe uninstall --user 0 com.coloros.soundrecorder
-.\adb.exe uninstall --user 0 com.coloros.video
-.\adb.exe uninstall --user 0 com.coloros.weather.service
-.\adb.exe uninstall --user 0 com.coloros.weather2
-.\adb.exe uninstall --user 0 com.debug.loggerui
-.\adb.exe uninstall --user 0 com.facebook.appmanager
-.\adb.exe uninstall --user 0 com.facebook.services
-.\adb.exe uninstall --user 0 com.facebook.system
-.\adb.exe uninstall --user 0 com.fintech.life
-.\adb.exe uninstall --user 0 com.glance.internet
-.\adb.exe uninstall --user 0 com.google.ambient.streaming
-.\adb.exe uninstall --user 0 com.google.android.adservices.api
-.\adb.exe uninstall --user 0 com.google.android.apps.googleassistant
-.\adb.exe uninstall --user 0 com.google.android.apps.healthdata
-.\adb.exe uninstall --user 0 com.google.android.apps.restore
-.\adb.exe uninstall --user 0 com.google.android.apps.walletnfcrel
-.\adb.exe uninstall --user 0 com.google.android.apps.wellbeing
-.\adb.exe uninstall --user 0 com.google.android.as
-.\adb.exe uninstall --user 0 com.google.android.as.oss
-.\adb.exe uninstall --user 0 com.google.android.feedback
-.\adb.exe uninstall --user 0 com.google.android.googlequicksearchbox
-.\adb.exe uninstall --user 0 com.google.android.health.connect.backuprestore
-.\adb.exe uninstall --user 0 com.google.android.healthconnect.controller
-.\adb.exe uninstall --user 0 com.google.android.marvin.talkback
-.\adb.exe uninstall --user 0 com.google.android.onetimeinitializer
-.\adb.exe uninstall --user 0 com.google.android.partnersetup
-.\adb.exe uninstall --user 0 com.google.android.printservice.recommendation
-.\adb.exe uninstall --user 0 com.google.android.projection.gearhead
-.\adb.exe uninstall --user 0 com.google.android.tts
-.\adb.exe uninstall --user 0 com.google.ar.core
-.\adb.exe uninstall --user 0 com.google.ar.lens
-.\adb.exe uninstall --user 0 com.google.mainline.adservices
-.\adb.exe uninstall --user 0 com.google.mainline.telemetry
-.\adb.exe uninstall --user 0 com.heytap.accessory
-.\adb.exe uninstall --user 0 com.heytap.browser
-.\adb.exe uninstall --user 0 com.heytap.market
-.\adb.exe uninstall --user 0 com.heytap.mcs
-.\adb.exe uninstall --user 0 com.heytap.music
-.\adb.exe uninstall --user 0 com.heytap.pictorial
-.\adb.exe uninstall --user 0 com.heytap.usercenter
-.\adb.exe uninstall --user 0 com.microsoft.appmanager
-.\adb.exe uninstall --user 0 com.microsoft.deviceintegrationservice
-.\adb.exe uninstall --user 0 com.microsoftsdk.crossdeviceservicebroker
-.\adb.exe uninstall --user 0 com.oplus.account
-.\adb.exe uninstall --user 0 com.oplus.aiunit
-.\adb.exe uninstall --user 0 com.oplus.aod
-.\adb.exe uninstall --user 0 com.oplus.apprecover
-.\adb.exe uninstall --user 0 com.oplus.atlas
-.\adb.exe uninstall --user 0 com.oplus.bttestmode
-.\adb.exe uninstall --user 0 com.oplus.cast
-.\adb.exe uninstall --user 0 com.oplus.commercial
-.\adb.exe uninstall --user 0 com.oplus.cosa
-.\adb.exe uninstall --user 0 com.oplus.cota
-.\adb.exe uninstall --user 0 com.oplus.crashbox
-.\adb.exe uninstall --user 0 com.oplus.customize.coreapp
-.\adb.exe uninstall --user 0 com.oplus.encryption
-.\adb.exe uninstall --user 0 com.oplus.engineercamera
-.\adb.exe uninstall --user 0 com.oplus.engineermode
-.\adb.exe uninstall --user 0 com.oplus.engineernetwork
-.\adb.exe uninstall --user 0 com.oplus.games
-.\adb.exe uninstall --user 0 com.oplus.healthservice
-.\adb.exe uninstall --user 0 com.oplus.interconnectcollectkit
-.\adb.exe uninstall --user 0 com.oplus.lfeh
-.\adb.exe uninstall --user 0 com.oplus.linker
-.\adb.exe uninstall --user 0 com.oplus.logkit
-.\adb.exe uninstall --user 0 com.oplus.melody
-.\adb.exe uninstall --user 0 com.oplus.multiapp
-.\adb.exe uninstall --user 0 com.oplus.nas
-.\adb.exe uninstall --user 0 com.oplus.ocloud
-.\adb.exe uninstall --user 0 com.oplus.olc
-.\adb.exe uninstall --user 0 com.oplus.onet
-.\adb.exe uninstall --user 0 com.oplus.onetrace
-.\adb.exe uninstall --user 0 com.oplus.pay
-.\adb.exe uninstall --user 0 com.oplus.payjoy
-.\adb.exe uninstall --user 0 com.oplus.postmanservice
-.\adb.exe uninstall --user 0 com.oplus.qualityprotect
-.\adb.exe uninstall --user 0 com.oplus.screenrecorder
-.\adb.exe uninstall --user 0 com.oplus.smartengine
-.\adb.exe uninstall --user 0 com.oplus.statistics.rom
-.\adb.exe uninstall --user 0 com.oplus.stdid
-.\adb.exe uninstall --user 0 com.oplus.stdsp
-.\adb.exe uninstall --user 0 com.oplus.synergy
-.\adb.exe uninstall --user 0 com.oplus.themestore
-.\adb.exe uninstall --user 0 com.oplus.viewtalk
-.\adb.exe uninstall --user 0 com.oplus.wifibackuprestore
-.\adb.exe uninstall --user 0 com.oppo.quicksearchbox
-.\adb.exe uninstall --user 0 com.payjoy.access
-.\adb.exe uninstall --user 0 com.realme.movieshot
-.\adb.exe uninstall --user 0 com.realme.wellbeing
-.\adb.exe uninstall --user 0 com.ses.entitlement.o2
-.\adb.exe uninstall --user 0 com.tencent.soter.soterserver
-.\adb.exe uninstall --user 0 com.wapi.wapicertmanager
+$elements = @(
+
+    "com.android.bips",
+    "com.android.bluetoothmidiservice",
+    "com.android.bookmarkprovider",
+    "com.android.dreams.basic",
+    "com.android.egg",
+    "com.android.email.partnerprovider",
+    "com.android.htmlviewer",
+    "com.android.providers.partnerbookmarks",
+    "com.android.sharedstoragebackup",
+    "com.android.simappdialog",
+    "com.android.stk",
+    "com.android.storagemanager",
+    "com.android.systemui.plugin.globalactions.wallet",
+    "com.android.traceur",
+    "com.android.wallpaper.livepicker",
+    "com.Btek.engineermode",
+    "com.Btek.omacp",
+    "com.Btek.voicecommand",
+    "com.coloros.activation",
+    "com.coloros.childrenspace",
+    "com.coloros.compass2",
+    "com.coloros.filemanager",
+    "com.coloros.floatassistant",
+    "com.coloros.gallery3d",
+    "com.coloros.healthcheck",
+    "com.coloros.karaoke",
+    "com.coloros.ocs.opencapabilityservice",
+    "com.coloros.operationManual",
+    "com.coloros.oshare",
+    "com.coloros.phonemanager",
+    "com.coloros.scenemode",
+    "com.coloros.securepay",
+    "com.coloros.smartsidebar",
+    "com.coloros.soundrecorder",
+    "com.coloros.video",
+    "com.coloros.weather.service",
+    "com.coloros.weather2",
+    "com.debug.loggerui",
+    "com.facebook.appmanager",
+    "com.facebook.services",
+    "com.facebook.system",
+    "com.fintech.life",
+    "com.glance.internet",
+    "com.google.ambient.streaming",
+    "com.google.android.adservices.api",
+    "com.google.android.apps.googleassistant",
+    "com.google.android.apps.healthdata",
+    "com.google.android.apps.restore",
+    "com.google.android.apps.walletnfcrel",
+    "com.google.android.apps.wellbeing",
+    "com.google.android.as",
+    "com.google.android.as.oss",
+    "com.google.android.feedback",
+    "com.google.android.googlequicksearchbox",
+    "com.google.android.health.connect.backuprestore",
+    "com.google.android.healthconnect.controller",
+    "com.google.android.marvin.talkback",
+    "com.google.android.onetimeinitializer",
+    "com.google.android.partnersetup",
+    "com.google.android.printservice.recommendation",
+    "com.google.android.projection.gearhead",
+    "com.google.android.tts",
+    "com.google.ar.core",
+    "com.google.ar.lens",
+    "com.google.mainline.adservices",
+    "com.google.mainline.telemetry",
+    "com.heytap.accessory",
+    "com.heytap.browser",
+    "com.heytap.market",
+    "com.heytap.mcs",
+    "com.heytap.music",
+    "com.heytap.pictorial",
+    "com.heytap.usercenter",
+    "com.microsoft.appmanager",
+    "com.microsoft.deviceintegrationservice",
+    "com.microsoftsdk.crossdeviceservicebroker",
+    "com.oplus.account",
+    "com.oplus.aiunit",
+    "com.oplus.aod",
+    "com.oplus.apprecover",
+    "com.oplus.atlas",
+    "com.oplus.bttestmode",
+    "com.oplus.cast",
+    "com.oplus.commercial",
+    "com.oplus.cosa",
+    "com.oplus.cota",
+    "com.oplus.crashbox",
+    "com.oplus.customize.coreapp",
+    "com.oplus.encryption",
+    "com.oplus.engineercamera",
+    "com.oplus.engineermode",
+    "com.oplus.engineernetwork",
+    "com.oplus.games",
+    "com.oplus.healthservice",
+    "com.oplus.interconnectcollectkit",
+    "com.oplus.lfeh",
+    "com.oplus.linker",
+    "com.oplus.logkit",
+    "com.oplus.melody",
+    "com.oplus.multiapp",
+    "com.oplus.nas",
+    "com.oplus.ocloud",
+    "com.oplus.olc",
+    "com.oplus.onet",
+    "com.oplus.onetrace",
+    "com.oplus.pay",
+    "com.oplus.payjoy",
+    "com.oplus.postmanservice",
+    "com.oplus.qualityprotect",
+    "com.oplus.screenrecorder",
+    "com.oplus.smartengine",
+    "com.oplus.statistics.rom",
+    "com.oplus.stdid",
+    "com.oplus.stdsp",
+    "com.oplus.synergy",
+    "com.oplus.themestore",
+    "com.oplus.viewtalk",
+    "com.oplus.wifibackuprestore",
+    "com.oppo.quicksearchbox",
+    "com.payjoy.access",
+    "com.realme.movieshot",
+    "com.realme.wellbeing",
+    "com.ses.entitlement.o2",
+    "com.tencent.soter.soterserver",
+    "com.wapi.wapicertmanager"
+)
+
+foreach ($element in $elements)
+{
+    .\adb.exe shell "pm uninstall --user 0 $element"
+}
+
+.\adb.exe shell "reboot"
+
+.\adb.exe kill-server
