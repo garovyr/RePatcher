@@ -1,5 +1,7 @@
 # RMX3710 (Realme C55)
 
+# https://www.reddit.com/r/Realme/comments/13i56um/comment/kj0dmr7/?translated=1&pretranslation_language=es-es
+
 $elements = @(
 
     "com.android.bips",
@@ -107,15 +109,15 @@ $elements = @(
     "com.oplus.olc",
     "com.oplus.onet",
     "com.oplus.onetrace",
-    "com.oplus.pay",
+    # "com.oplus.pay", Secure Pay
     "com.oplus.payjoy",
     "com.oplus.postmanservice",
     "com.oplus.qualityprotect",
     "com.oplus.screenrecorder",
     "com.oplus.smartengine",
     "com.oplus.statistics.rom",
-    "com.oplus.stdid",
-    "com.oplus.stdsp",
+    # "com.oplus.stdid", Unknown
+    # "com.oplus.stdsp", Unknown
     "com.oplus.synergy",
     "com.oplus.themestore",
     "com.oplus.viewtalk",
@@ -133,7 +135,3 @@ foreach ($element in $elements)
 {
     .\adb.exe shell "pm uninstall --user 0 $element"
 }
-
-.\adb.exe shell "reboot"
-
-.\adb.exe kill-server
